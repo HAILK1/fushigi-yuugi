@@ -54,7 +54,7 @@ tr:nth-child(even) {
     height: fit-content;
     right: 20px;
     top: 170px;
-    oppacity: 0;
+    opacity: 0;
     transition: .6s;
     user-select: none;
 }
@@ -76,7 +76,10 @@ tr:nth-child(even) {
 }
 
 #miaka:hover .miaka_ {
-    oppacity: 1;
+    opacity: 1;
+}
+tr {
+    transition: .6s;
 }
 tbody tr:hover {
     background: linear-gradient(45deg, yellow, transparent);
